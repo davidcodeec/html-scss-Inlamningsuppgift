@@ -96,6 +96,26 @@ html,body{
     }
 }
 
+.searchbox {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 5px solid black;
+
+    input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        margin-left: 5px;
+        width: 100%;
+
+    }
+}
+
 .center-content {
     display: flex;
     justify-content: center;
@@ -377,6 +397,50 @@ header{
     }
 
 
+}
+
+.newsletter {
+
+    background-color: #F0EFE9;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .newsletter-background-lines {
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+    }
+
+    .container {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+            font-size: 45px;
+
+        }
+
+        form {
+
+            input {
+                border-radius: 25px;
+                outline: none;
+                border: 1px solid rgba(25, 25, 25, 0.10);
+                margin-right: 20px;
+                text-decoration: none;
+                padding: 15px 30px;
+                font-size: 16px;
+            }
+
+        }
+
+    }
 }
 
 footer {
